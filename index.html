@@ -12,10 +12,10 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/serif.css" id="theme">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -39,6 +39,60 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
+        <section>
+          <h1>Topic</h1>
+          <p class="good">Something good</p>
+          <p class="bad">Something bad</p>
+          <div class="learn">
+            <p class="good">Applies if you're here to learn</p>
+          </div>
+          <div class="learn_and_compete">
+            <p class="good">Applies either way</p>
+          </div>
+          <div class="compete">
+            <p class="good">Applies if you're here to compete</p>
+          </div>
+        </section>
+        <section>
+          <section>
+            <h1>Tools</h1>
+          </section>
+          <section>
+            <h1>Libraries</h1>
+            <p>Many languages have large ecosystems of libraries which you can leverage in your projects.</p>
+            <div class="learn">
+              <p class="good">Using libraries can save you from spending time on things you're not learning.</p>
+              <p class="bad">Sometimes doing boring things the hard way is the best way to learn.</p>
+            </div>
+            <div class="compete">
+              <p class="good">Libraries are critical to help you get an impressive result in a short time.</p>
+              <p class="bad">You should practice with the libraries you plan on using in advance, or could get slowed down with trivial issues.</p>
+            </div>
+          </section>
+          <section>
+            <h1>Version Control</h1>
+            <p> Tools for managing and merging your code, such as Git and GitHub, Hg and BitBucket.</p>
+            <div class="learn_and_compete">
+              <p class="bad">These tools are often complicated and will slow down your initial speed, spending time learning tools instead of coding.</p>
+              <p class="good">The benefits that version control brings to collaborating in a common code base are huge for teams larger than 2 members.</p>
+            </div>
+          </section>
+        </section>
+        <section>
+          <h1>Collaboration</h1>
+          <div class="learn">
+            <p class="good">Learning with others can be incredibly helpful</p>
+            <p class="good">Either pair with someone who knows what you want to learn</p>
+            <p class="good">Or pair with someone who wants to learn the same things</p>
+          </div>
+          <div class="learn_and_compete">
+            <p class="bad">Working with someone else adds overhead</p>
+            <p class="bad">In order to team up on a project you'll need to compromise on what you work on</p>
+          </div>
+          <div class="compete">
+            <p class="good">Pairing with someone with complementary skills can be very powerful</p>
+          </div>
+        </section>
         <section data-markdown="slides.md"
                  data-separator="^\n\n\n"
                  data-separator-vertical="^\n\n"
@@ -62,7 +116,6 @@
 				history: true,
 				center: true,
         margin: 0.4,
-        height: 900,
         maxScale: 1,
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom

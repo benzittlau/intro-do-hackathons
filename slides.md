@@ -14,9 +14,11 @@
 
 
 # WHY WOULD WE CACHE?
-* It can make our apps faster
-* It can reduce load on services or API's
-* It can persist data that is no longer available
+One block
+
+With two lines
+
+Another block <!-- .element: class="compete"-->
 
 
 
